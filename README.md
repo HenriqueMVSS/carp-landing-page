@@ -1,4 +1,4 @@
-# Nome do Projeto
+# CARP - LANDING PAGE
 
 Este é um projeto de uma landing page voltada para area juridica. A página foi construída utilizando React com Typescript.
 
