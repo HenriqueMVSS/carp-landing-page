@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Nome do Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de uma landing page voltada para area juridica. A página foi construída utilizando React com Typescript.
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta landing page é uma página de apresentação que contém informações sobre um determinado produto/serviço desenvolvido por Patrícia Braga. Ela foi projetada para fornecer aos visitantes todas as informações necessárias e orientá-los para uma ação específica, como inscrever-se para receber um e-book gratuito, etc.
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para instalar e visualizar esta landing page, siga os seguintes passos:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório para o seu computador local usando `git clone`.
+2. Execute `npm install` para instalar as dependencias do projeto.
+3. Execute `npm run dev` para rodar o projeto e acessa-lo pelo navegador na porta :5173.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Uso
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A página é dividida em várias seções que incluem:
+
+- Um cabeçalho com o logotipo e a navegação
+- Uma seção principal com informações sobre o produto/serviço
+- Uma seção de rodapé com informações adicionais e um formulário de contato
+
+## Contato
+
+Se você tiver alguma dúvida ou comentário, por favor, entre em contato.
