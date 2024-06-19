@@ -1,0 +1,24 @@
+.footer {
+    margin-top: auto;
+    height: 200px;
+    overflow: hidden;
+}
+
+.footer-img {
+    width: 100%;
+    
+}
+
+/* Media queries */
+@media screen and (min-width: 968px) {
+    .footer {
+        margin-top: auto;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .footer-img {
+        width: 100%;
+        height: 600px;
+     }
+}

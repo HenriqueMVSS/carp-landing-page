@@ -1,0 +1,126 @@
+.footer-speaker {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+.content-speaker {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #678561;
+    padding: 0 20px; /* Adicione um padding para evitar que o conteúdo fique muito perto das bordas */
+}
+
+.img-footer, .text-footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speaker-img {
+    width: 195px;
+    padding: 35px;
+}
+
+.text-footer {
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 2px;
+}
+
+.text-title {
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 10px;
+   max-width: 250px;
+}
+
+.description {
+    max-width: 400px;
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #4e4e4e;
+
+}
+
+.signup-speaker {
+    padding-bottom: 50px;
+}
+
+/* Media queries */
+@media screen and (min-width: 967px) {
+    .footer-speaker {
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .content-speaker {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: #678561;
+        padding: 0 20px; /* Adicione um padding para evitar que o conteúdo fique muito perto das bordas */
+    }
+    
+    .img-footer {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .speaker-img {
+        width: 265px;
+        padding: 35px;
+    }
+    
+    .text-footer {
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    
+    .text-title {
+       font-size: 20px;
+       font-weight: bold;
+       /* padding-bottom: 10px; */
+       /* max-width: 250px; */
+       margin-right: 290px;
+    }
+    
+    .description {
+        max-width: 400px;
+        font-size: 14px;
+        padding-bottom: 16px;
+        margin-right: 140px;
+    }
+    
+    input {
+        width: 450px;
+        height: 30px;
+        margin-bottom: 8px;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        color: #4e4e4e;
+        margin-right: 90px;
+    }
+    .signup-speaker{
+        margin-right: 400px;
+    }
+}
+

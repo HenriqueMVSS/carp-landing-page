@@ -1,0 +1,31 @@
+.signup {
+    width: 146px;
+    height: 40px;
+    border-radius: 1rem;
+    border-color: transparent;
+    background-color: #A56537;
+    color: #ffffff;
+}
+
+.signup:hover {
+    background-color: #865e41;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    .signup {
+        width: 120px;
+        height: 35px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .signup {
+        width: 100px;
+        height: 30px;
+    }
+}

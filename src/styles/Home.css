@@ -1,0 +1,101 @@
+.home {
+    width: 100%; /* Faz a largura ocupar 100% da largura da janela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-home {
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 400px;
+}
+
+.description {
+    width: 350px;
+}
+
+/* Media queries */
+@media screen and (min-width: 967px) {
+    .home {
+        width: 100%; /* Faz a largura ocupar 100% da largura da janela */
+        /* height: calc(100vh - 450px - 40px); Subtrai a altura do header e do footer da altura total da janela */
+        height: calc(100vh - 400px - 40px);
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .logo-home {
+        width: 632px;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    
+    .logo-img {
+        width: 378.99px;
+        height: 375.77px;
+    }
+    
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 130px;
+    }
+    
+    .title {
+        width: 471px;
+    }
+    
+    .title b {
+        font-family: Montserrat;
+        font-size: 38px;
+        font-weight: 600;
+        text-align: left;
+        color: #0D1438;
+    }
+    
+    .description {
+        width: 422px;
+        height: 119px; 
+    }
+    
+    .description p {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29.26px;
+        text-align: left;
+        color: #7F8197;
+    }
+    
+    .signup:hover {
+        background-color: #865e41;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        color: #ffffff;
+    }
+}
