@@ -81,6 +81,7 @@
     .description {
         width: 422px;
         height: 119px; 
+        color: #0D1438;
     }
     
     .description p {
@@ -89,7 +90,15 @@
         font-weight: 500;
         line-height: 29.26px;
         text-align: left;
-        color: #7F8197;
+        color: #0D1438;;
+    }
+
+    .title-home {
+        color: #0D1438;
+    }
+
+    .description-home {
+        color: #0D1438;
     }
     
     .signup:hover {

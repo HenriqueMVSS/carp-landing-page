@@ -14,10 +14,10 @@ export const Home = () => {
                 </div>
                 <div className='text-container'>
                     <div className='title'>
-                        <b>CARP, o curso que vai te capacitar para atuar como Representante Legal.</b>
+                        <b className='title-name'>CARP, o curso que vai te capacitar para atuar como Representante Legal.</b>
                     </div>
                     <div className='description'>
-                        <p>Inscreva-se no botão abaixo e receba um e-book exclusivo sobre essa profissão que não exige diploma.</p>
+                        <p className='description-home'>Inscreva-se no botão abaixo e receba um e-book exclusivo sobre essa profissão que não exige diploma.</p>
                     </div>
                     <div className='signup'>
                         <Signup />
