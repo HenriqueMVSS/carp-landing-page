@@ -31,6 +31,14 @@
     width: 350px;
 }
 
+.title-home {
+    color: #0D1438;
+}
+
+.description-home {
+    color: #0D1438;
+}
+
 /* Media queries */
 @media screen and (min-width: 967px) {
     .home {
